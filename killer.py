@@ -57,7 +57,7 @@ current_palette = palette_dark
 # UI
 # -------------------------
 root = tk.Tk()
-root.title("ArduxLab Port Killer — Modern UI")
+root.title("ArduxShop Port Killer — Modern UI")
 root.geometry("780x520")
 root.minsize(620, 420)
 style = ttk.Style(root)
@@ -192,7 +192,7 @@ navbar = tk.Frame(root, height=56)
 navbar.pack(side="top", fill="x")
 navbar.pack_propagate(False)
 
-title_lbl = tk.Label(navbar, text="🔧 ArduxLab Port Killer", font=("Segoe UI", 13, "bold"))
+title_lbl = tk.Label(navbar, text="🔧 ArduxShop Port Killer", font=("Segoe UI", 13, "bold"))
 title_lbl.pack(side="left", padx=12)
 
 menu_frame = tk.Frame(navbar)
@@ -292,3 +292,4 @@ root.bind("<F5>", lambda e: refresh())
 root.bind("<Delete>", lambda e: kill_selected())
 
 root.mainloop()
+
