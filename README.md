@@ -52,7 +52,7 @@ Contoh
 set TCL_LIBRARY=C:\Users\LAPTOP-RYZE\AppData\Local\Programs\PhpWebStudy-Data\env\python\tcl\tcl8.6
 set TK_LIBRARY=C:\Users\LAPTOP-RYZE\AppData\Local\Programs\PhpWebStudy-Data\env\python\tcl\tk8.6
 
-harus disesuaikan folder dari tcl
+harus disesuaikan folder dari tcl, copy itu cmd lalu paste
 set TCL_LIBRARY=C:\Users\LAPTOP-RYZE\AppData\Local\Programs\x\x
 set TK_LIBRARY=C:\Users\LAPTOP-RYZE\AppData\Local\Programs\x\x
 ```
