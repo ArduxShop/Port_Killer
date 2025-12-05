@@ -156,7 +156,7 @@ def kill_selected():
 # UI MAIN
 # ============================================================
 root = tk.Tk()
-root.title("ArduxLab Port Killer — Modern UI")
+root.title("ArduxShop Port Killer — Modern UI")
 root.geometry("700x450")
 root.minsize(700, 450)
 
@@ -168,7 +168,7 @@ navbar = tk.Frame(root, height=50, bg=current_palette["surface"])
 navbar.pack(fill="x")
 
 title = tk.Label(
-    navbar, text="🔧 ArduxLab Port Killer", font=("Segoe UI", 14, "bold"),
+    navbar, text="🔧 ArduxShop Port Killer", font=("Segoe UI", 14, "bold"),
     bg=current_palette["surface"], fg=current_palette["text"]
 )
 title.pack(side="left", padx=12)
@@ -214,3 +214,4 @@ tk.Button(btn_frame, text="Kill Selected", command=kill_selected).pack(side="lef
 
 refresh()
 root.mainloop()
+
