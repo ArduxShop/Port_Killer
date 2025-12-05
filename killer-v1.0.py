@@ -39,7 +39,7 @@ def kill_selected():
     refresh()
 
 root = tk.Tk()
-root.title("Port Killer — ArduxLab Tool")
+root.title("Port Killer — ArduxShop Tool")
 root.geometry("600x400")
 
 frame = tk.Frame(root)
@@ -59,3 +59,4 @@ tk.Button(btn_frame, text="Kill Selected", command=kill_selected).pack(side='lef
 
 refresh()
 root.mainloop()
+
