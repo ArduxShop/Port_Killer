@@ -1,4 +1,4 @@
-# ArduxLab-Port-Killer-Modern-UI
+# ArduxShop-Port-Killer-Modern-UI
 Tool Python berbasis **Tkinter + TTK** untuk menampilkan semua port yang sedang listening/established di Windows dan memudahkan untuk **kill process** yang terkait. Fokus pada **UI responsif** dengan fitur modern.
 
 ---
